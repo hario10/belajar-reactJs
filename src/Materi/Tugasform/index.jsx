@@ -32,11 +32,6 @@ export default class Tugasform extends React.Component {
             pesan = [...pesan, 'Konfirmasi tidak boleh kosong'];
         }
 
-        const re = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-        if(!re.test(String(email).toLowerCase())) {
-            pesan = [...pesan, 'Email tidak valid'];
-        }
-
         if(nama.length < 5) {
             pesan = [...pesan, 'Nama minimal harus lima huruf'];
         }
