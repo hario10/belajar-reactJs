@@ -1,10 +1,14 @@
-import Komponen from "./Materi/Komponen";
+// import Form from "./Materi/Form";
+
+import Tugasform from "./Materi/Tugasform";
+
 
 
 function App() {
   return (
     <div className="App">
-      <Komponen />
+      {/* <Form /> */}
+      <Tugasform />
     </div>
   );
 }
