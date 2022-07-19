@@ -42,8 +42,8 @@ export default class FormElement extends React.Component {
                 </label> <br />
                 <label >
                     Jenis Kelamin:
-                    <input type="radio" value="Laki Laki" name="gender" onChange={e => this.setState({gender: e.target.value})} checked={this.state.gender}/> Laki-Laki
-                    <input type="radio" value="Perempuan" name="gender" onChange={e => this.setState({gender: e.target.value})} /> Perempuan
+                    <input type="radio" value="Laki Laki" name="gender" onChange={e => this.setState({gender: e.target.value})} defaultChecked={this.state.gender}/> Laki-Laki
+                    <input type="radio" value="Perempuan" name="gender" onChange={e => this.setState({gender: e.target.value})} defaultChecked={this.state.gender}/> Perempuan
                 </label> <br />
                 <label>
                     Alamat: <br /><textarea  cols="30" rows="10" name="alamat" onChange={e => this.setState({alamat: e.target.value})} value={this.state.alamat}/>

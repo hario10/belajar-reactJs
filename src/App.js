@@ -1,14 +1,16 @@
-// import Form from "./Materi/Form";
+import Redux from "./Materi/Redux";
 
-import Tugasform from "./Materi/Tugasform";
+
+
+
 
 
 
 function App() {
   return (
     <div className="App">
-      {/* <Form /> */}
-      <Tugasform />
+      <Redux />
+      {/* <LifeCycle /> */}
     </div>
   );
 }
